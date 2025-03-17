@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bill - Smart Bill Analysis & Insights</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafc;
+            color: #2d2d2d;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        .navbar img {
+            max-width: 150px;
+        }
+        .navbar a {
+            color: #2d2d2d;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #4a90e2, #9453e5);
+            color: white;
+            border-radius: 12px;
+        }
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin-bottom: 25px;
+        }
+        .cta-button {
+            background-color: #ffcc00;
+            color: #2d2d2d;
+            padding: 15px 35px;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            flex-wrap: wrap;
+        }
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            margin: 20px;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .testimonials {
+            margin-top: 80px;
+            text-align: center;
+            padding: 60px;
+            background: #f5f7fa;
+            border-radius: 12px;
+        }
+        footer {
+            margin-top: 60px;
+            padding: 40px;
+            background: #2d2d2d;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="/mnt/data/A_modern,_professional_logo_for_'My_Bill'_-_a_fina.png" alt="My Bill Logo">
+            <div>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+        </div>
+        
+        <div class="hero">
+            <h1>Take Control of Your Bills</h1>
+            <p>The easiest way to track, analyze, and optimize your expenses. Upload your bill and get insights instantly.</p>
+            <a href="#upload" class="cta-button">Upload Your Bill</a>
+        </div>
+        
+        <div class="features" id="features">
+            <div class="feature">
+                <img src="https://via.placeholder.com/80" alt="Upload">
+                <h2>📤 Upload & Analyze</h2>
+                <p>Simply upload a bill, and our AI-powered system will extract key details in seconds.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/80" alt="Insights">
+                <h2>📊 Bill Insights</h2>
+                <p>Understand your spending habits with real-time analysis and trends.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/80" alt="Secure">
+                <h2>🔒 Secure & Private</h2>
+                <p>We use bank-level encryption to ensure your data stays safe and private.</p>
+            </div>
+        </div>
+        
+        <div class="testimonials" id="testimonials">
+            <h2>What Our Users Say</h2>
+            <p>💬 "This tool saved me over $300 on my bills! Highly recommended." - Alex R.</p>
+            <p>💬 "I love how easy it is to use. My Bill makes managing expenses stress-free!" - Lisa M.</p>
+        </div>
+        
+        <footer>
+            <p>🚀 Start optimizing your bills today with My Bill! 🚀</p>
+            <p>© 2025 My Bill. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
